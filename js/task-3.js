@@ -1,6 +1,6 @@
 function checkForSpam(message) {
   let firstWord = 'spam';
-  let secondWord = ' sale';
+  let secondWord = 'sale';
   return message.toLowerCase().includes(firstWord.toLowerCase()) ||
     message.toLowerCase().includes(secondWord.toLowerCase())
     ? true
